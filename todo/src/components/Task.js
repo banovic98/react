@@ -4,7 +4,7 @@ function Task({ task, onDelete }) {
     return (
         <div className="task">
             <h3>{task.text} <FaTimes onClick={() => onDelete(task.id)} style={{ color: 'red' }} /></h3>
-            <p className="date">{task.day}</p>
+            <p className="datee">{task.day}</p>
         </div>
     )
 }
