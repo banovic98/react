@@ -11,7 +11,7 @@ function AddTask({ onAdd }) {
         e.preventDefault();
 
         if (!text) {
-            alert('Please add task');
+            alert('Please add taskk');
             return;
         }
         onAdd({ text, day });
